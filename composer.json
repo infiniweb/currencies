@@ -1,0 +1,29 @@
+{
+    "name": "infiniweb/currencies",
+    "description": "Simple currencies management system",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Maxime Morel-Bailly",
+            "email": "17177824+infiniweb@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "files": ["src/autoload.php"]
+    },
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.php.net"
+        }
+    ],
+    "require": {
+        "pear-pear.php.net/config_lite": "0.2.5",
+        "php": ">=7.0.0"
+    },
+    "minimum-stability": "dev"
+}
