@@ -1,5 +1,5 @@
 <?php
-namespace InfiniWeb\Currency;
+namespace InfiniWeb\Currencies;
 
 class Currency
 {
